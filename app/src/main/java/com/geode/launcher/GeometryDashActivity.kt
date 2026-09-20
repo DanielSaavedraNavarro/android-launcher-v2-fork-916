@@ -501,7 +501,7 @@ class GeometryDashActivity : AppCompatActivity(), Cocos2dxHelper.Cocos2dxHelperL
     }
 
     private fun setupUIState() {
-        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
 
         val preferenceUtils = PreferenceUtils.get(this)
 
